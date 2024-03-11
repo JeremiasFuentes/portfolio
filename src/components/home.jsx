@@ -191,11 +191,11 @@ const Home = () => {
                       </div>
                       <p class="card-text normalText mt-2 textFont">Links:</p>
                       <div class="container">
-                        <a href="#" className="btn btn-info marginButtons">
+                        <a href="https://jeremiasfuentes.github.io/portfolio/" className="btn btn-info marginButtons" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-link"></i>
                           <img src={webicon} alt="Web" style={{width: '20px', height: '20px'}}/>
                         </a>
-                        <a href="#" class="btn btn-warning">
+                        <a href="https://github.com/JeremiasFuentes/portfolio" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-github"></i>
                           <img src={giticon} alt="Github" style={{width: '20px', height: '20px'}}/>
                         </a>
@@ -255,11 +255,8 @@ const Home = () => {
                       </div>
                       <p class="card-text normalText mt-2 textFont">Links:</p>
                       <div class="container">
-                        <a href="#" class="btn btn-info marginButtons">
-                          <i class="bi bi-link"></i>
-                          <img src={webicon} alt="Web" style={{width: '20px', height: '20px'}}/>
-                        </a>
-                        <a href="#" class="btn btn-warning">
+                        
+                        <a href="https://github.com/JeremiasFuentes/UNQ-TTIP-OdontoTPI-Docs" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-github"></i>
                           <img src={giticon} alt="Github" style={{width: '20px', height: '20px'}}/>
                         </a>
@@ -309,11 +306,8 @@ const Home = () => {
                       </div>
                       <p class="card-text normalText mt-2 textFont">Links:</p>
                       <div class="container">
-                        <a href="#" class="btn btn-info marginButtons">
-                          <i class="bi bi-link"></i>
-                          <img src={webicon} alt="Web" style={{width: '20px', height: '20px'}}/>
-                        </a>
-                        <a href="#" class="btn btn-warning">
+                        
+                        <a href="https://github.com/JeremiasFuentes/Blog-of-Courses" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-github"></i>
                           <img src={giticon} alt="Github" style={{width: '20px', height: '20px'}}/>
                         </a>
@@ -360,11 +354,11 @@ const Home = () => {
                       </div>
                       <p class="card-text normalText mt-2 textFont">Links:</p>
                       <div class="container">
-                        <a href="#" class="btn btn-info marginButtons">
+                        <a href="https://jeremiasfuentes.itch.io/defiance" class="btn btn-info marginButtons" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-link"></i>
                           <img src={webicon} alt="Web" style={{width: '20px', height: '20px'}}/>
                         </a>
-                        <a href="#" class="btn btn-warning">
+                        <a href="https://github.com/fabianfrangella/ipv-boss-2023-c2" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
                           <i class="bi bi-github"></i>
                           <img src={giticon} alt="Github" style={{width: '20px', height: '20px'}}/>
                         </a>
@@ -391,9 +385,9 @@ const Home = () => {
           <img src={`${process.env.PUBLIC_URL}/images/mailicon.png`} alt="Web" style={{width: '20px', height: '20px'}}/>
           <a href="mailto:jeremiasfuentes77@gmail.com" target="_blank">{strings[language].mail}</a>
           <img src={`${process.env.PUBLIC_URL}/images/lklogo.webp`} alt="Web" style={{width: '20px', height: '20px'}}/>
-          <a href="https://www.linkedin.com/in/jeremias-fuentes-morales-15b9b51b2/" target="_blank">{strings[language].linkedin}</a>
+          <a href="https://www.linkedin.com/in/jeremias-fuentes-morales-15b9b51b2/" target="_blank" rel="noopener noreferrer">{strings[language].linkedin}</a>
           <img src={giticon} alt="Web" style={{width: '20px', height: '20px'}}/>
-          <a href="https://github.com/JeremiasFuentes" target="_blank">{strings[language].github}</a>
+          <a href="https://github.com/JeremiasFuentes" target="_blank" rel="noopener noreferrer">{strings[language].github}</a>
         </div>
       </section>
 
