@@ -13,6 +13,14 @@ const Header = ( {onLanguageChange , onModeChange }) => {
 
   const modeClass = mode === "light" ? "" : "dark-mode";
 
+  const scrollToSection = (sectionName) => {
+    const section = document.getElementById(sectionName);
+    console.log(section)
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
   return (
     <>
     <Navbar className={`navBg sticky-top ${modeClass}`} variant="dark" expand="lg">
@@ -22,20 +30,30 @@ const Header = ( {onLanguageChange , onModeChange }) => {
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
             
-            <button className='altText personalButton me-2'>
-              
-            <Nav.Link as={Link} to="/home#aboutme">
-                
+            <button className='altText personalButton me-2' onClick={() => scrollToSection('aboutme')}> 
+            <Nav.Link as={Link} to="/home#aboutme">   
             <t className='altText brandFont'>{strings[language].about}</t>
-              </Nav.Link>
-              </button>
-              <button className='altText personalButton me-2'>
-              <Nav.Link as={Link} to="/home#contact">
-              
-              <t className='altText brandFont'>{strings[language].contact}</t>
-              
-              </Nav.Link>  
-              </button>       
+            </Nav.Link>
+            </button>
+
+            <button className='altText personalButton me-2' onClick={() => scrollToSection('experience')}> 
+            <Nav.Link as={Link} to="/home#experience">   
+            <t className='altText brandFont'>{strings[language].experience}</t>
+            </Nav.Link>
+            </button>
+
+            <button className='altText personalButton me-2' onClick={() => scrollToSection('proyects')}> 
+            <Nav.Link as={Link} to="/home#projects">   
+            <t className='altText brandFont'>{strings[language].projects}</t>
+            </Nav.Link>
+            </button>
+
+            <button className='altText personalButton me-2' onClick={() => scrollToSection('contact')}>
+            <Nav.Link as={Link} to="/home#contact">
+            <t className='altText brandFont'>{strings[language].contact}</t>
+            </Nav.Link>  
+            </button>   
+
               <label className="ui-switch me-2">
               <input type="checkbox" onClick={onLanguageChange}/>
               <div class="slider">

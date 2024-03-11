@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aa1b51cc.css",
+    "main.js": "/portfolio/static/js/main.b58758e9.js",
+    "static/js/787.ae0d8d37.chunk.js": "/portfolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/logoc.png": "/portfolio/static/media/logoc.345c5dbba6d56f0e0b3c.png",
+    "static/media/reacticon.png": "/portfolio/static/media/reacticon.5ba269de80a071753384.png",
+    "static/media/godotlogo.png": "/portfolio/static/media/godotlogo.9fe628a05f4d6bf947d8.png",
+    "static/media/NET_Core_Logo.svg.png": "/portfolio/static/media/NET_Core_Logo.svg.16138f54ba103c85dbdd.png",
+    "static/media/bootstrapicon.png": "/portfolio/static/media/bootstrapicon.f132cb791703420e69ca.png",
+    "static/media/Java-Logo.png": "/portfolio/static/media/Java-Logo.09f5a80c7f42f1c28839.png",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.062825dbceed44567e91.png",
+    "static/media/springbootlogo.png": "/portfolio/static/media/springbootlogo.94f201ce44348763e6a5.png",
+    "static/media/javabrand.png": "/portfolio/static/media/javabrand.66d5a4fef00821dfe115.png",
+    "static/media/webicon.webp": "/portfolio/static/media/webicon.a59112977a5056b260fe.webp",
+    "index.html": "/portfolio/index.html",
+    "main.aa1b51cc.css.map": "/portfolio/static/css/main.aa1b51cc.css.map",
+    "main.b58758e9.js.map": "/portfolio/static/js/main.b58758e9.js.map",
+    "787.ae0d8d37.chunk.js.map": "/portfolio/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa1b51cc.css",
+    "static/js/main.b58758e9.js"
+  ]
+}

@@ -36,7 +36,7 @@ function App() {
     <BrowserRouter>
       <Header onLanguageChange={handleLanguageChange} onModeChange={handleModeChange}></Header>
       <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/home" element={<Home/>} />
       </Routes> 
     </BrowserRouter>
     </div>

@@ -155,13 +155,13 @@ const Home = () => {
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/images/homeportfolio.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/homeportfolio.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/contact.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/contact.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/proyects.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/proyects.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -212,13 +212,13 @@ const Home = () => {
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/images/turnos.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/turnos.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/odontograma.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '800px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/odontograma.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '800px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/listapacientes.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '800px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/listapacientes.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '800px', height: '300px'}}/>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -276,13 +276,13 @@ const Home = () => {
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/images/cursos.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/cursos.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/blogregister.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/blogregister.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/listaarticulos.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/listaarticulos.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
@@ -330,13 +330,13 @@ const Home = () => {
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/images/boss.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/boss.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/skull.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/skull.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                     <div class="carousel-item">
-                      <img src="/images/menudefiance.jpg" class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
+                      <img src={`${process.env.PUBLIC_URL}/images/menudefiance.jpg`} class="d-block w-100 slideCarousel" alt="..." style={{width: '500px', height: '300px'}}/>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
@@ -388,9 +388,9 @@ const Home = () => {
           </form>
         </div>
         <div className={`${modeClass} container social-links`}>
-          <img src="/images/mailicon.png" alt="Web" style={{width: '20px', height: '20px'}}/>
+          <img src={`${process.env.PUBLIC_URL}/images/mailicon.png`} alt="Web" style={{width: '20px', height: '20px'}}/>
           <a href="mailto:jeremiasfuentes77@gmail.com" target="_blank">{strings[language].mail}</a>
-          <img src="/images/lklogo.webp" alt="Web" style={{width: '20px', height: '20px'}}/>
+          <img src={`${process.env.PUBLIC_URL}/images/lklogo.webp`} alt="Web" style={{width: '20px', height: '20px'}}/>
           <a href="https://www.linkedin.com/in/jeremias-fuentes-morales-15b9b51b2/" target="_blank">{strings[language].linkedin}</a>
           <img src={giticon} alt="Web" style={{width: '20px', height: '20px'}}/>
           <a href="https://github.com/JeremiasFuentes" target="_blank">{strings[language].github}</a>
